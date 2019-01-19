@@ -20,6 +20,6 @@ def main(sequence_of_numbers):
     print('Max length : {}'.format(max_lis_length(sequence_of_numbers))) 
 
 if __name__ == '__main__':
-    sequence_of_numbers = [ 1,2,3,4,5,6,0,3,4,5,6, ]
+    sequence_of_numbers = [ 3,4,5,1,3,4,9 ]
     print(sequence_of_numbers)
     main(sequence_of_numbers)
